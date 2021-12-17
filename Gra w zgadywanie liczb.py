@@ -11,7 +11,7 @@ while not good: #dopóki gracz nie zgadnie liczby komputera, wykonaj poniższe d
         y = int(input("Guess the number 1 - 10: ")) #poproś o wpisanie zgadywanej liczby
         if x == y:
             print("You won!") #jeśli się zgadza, zwróć odpowiedź
-            dobrze = True
+            good = True
             break
         elif x > y:
             print("Too small!") # jeśli za mała, zwróć odpowiedż
